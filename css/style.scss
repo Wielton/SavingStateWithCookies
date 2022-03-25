@@ -1,0 +1,40 @@
+@import 'header';
+@import 'buttons';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    
+    background-color: #383838;
+    
+}
+
+.main-grid {
+    display: grid;
+    grid-gap: 5%;
+    justify-content: center;
+    
+    
+}
+.main-item {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 50px 300px;
+    
+    align-items: center;
+}
+h2 {
+    color: rgba(0, 153, 255, 0.692);
+}
+img {
+    height: 250px;
+    width: auto; 
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    box-shadow: 0px 2px 3px 0px #494949;
+    border: none;
+}
