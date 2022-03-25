@@ -31,15 +31,19 @@ let cookieArray = [userSelection1, userSelection2, userSelection3];
 //  Create a forLoop to iterate through cookieArray[i] and 
 //  a conditionl to inject innerText into ('choicename');
 for (let n = 0; n < cookieArray.length; n++) {
+    
+    let choice = document.getElementById('choiceName');
     if (cookieArray[n] = userSelection1) {
-        document.getElementById('choiceName').innerText='Cappuccino';
+        choice.innerText='Cappuccino';
         document.body.style.backgroundImage="url('https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-cappuccino.png')";
     } else if (cookieArray[n] = userSelection2) {
-        document.getElementById('choiceName').innerText='Pastel';
+        choice.innerText='Pastel Rainbow';
         document.body.style.backgroundImage="url('https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-pastel-rainbow.png')";
-}else if (cookieArray[n] = userSelection3) {
-    document.getElementById('choiceName').innerText='Program';
-    document.body.style.backgroundImage="url('https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-program-catalog.png')";
+    }else if (cookieArray[n] = userSelection3) {
+        choice.innerText='Program Catalog';
+        document.body.style.backgroundImage="url('https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-program-catalog.png')";
+    }else {
+        choice.innerText='Error: No colour palette selected.';
 }}
 
 // Make the #selectionDiv have the corresponding colours background

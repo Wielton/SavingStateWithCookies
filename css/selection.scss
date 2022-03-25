@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 html {
     width: 100vw;
@@ -26,6 +27,7 @@ body {
     padding: 5%;
     text-align: center;
 }
+
 h2 {
     color: rgb(250, 239, 226);
     padding: 5%;
@@ -39,4 +41,7 @@ h2 {
 
 h4 {
     text-align: left;
+}
+#choiceName {
+    
 }
