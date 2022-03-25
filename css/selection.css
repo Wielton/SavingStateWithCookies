@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=selection.css.map */
+button {
+  background-color: rgba(0, 153, 255, 0.692);
+  color: #505050;
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  background-color: #383838;
+}
+/*# sourceMappingURL=selection.css.map */

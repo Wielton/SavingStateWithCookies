@@ -1,13 +1,11 @@
 button {
-    display: inline-block;
+    
     background-color: rgba(0, 153, 255, 0.692);
     color: #505050;
-    width: 100px;
-    height: 50px;
+    width: 75px;
+    height: 30px;
     border: none;
     border-radius: 15px;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    justify-self: center;
-    font-size: 1.2em;
+    font-size: 1em;
+    
 }
