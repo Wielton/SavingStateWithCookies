@@ -1,11 +1,18 @@
 button {
-  background-color: rgba(0, 153, 255, 0.692);
   color: #505050;
   width: 75px;
   height: 30px;
   border: none;
   border-radius: 15px;
   font-size: 1em;
+  font-weight: 550;
+  opacity: 0.6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
 }
 
 * {
@@ -15,9 +22,46 @@ button {
           box-sizing: border-box;
 }
 
+html {
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
 body {
   display: -ms-grid;
   display: grid;
-  background-color: #383838;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+#selectionDiv {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  text-align: center;
+}
+
+h2 {
+  color: #faefe2;
+  padding: 5%;
+  background-color: #494949;
+}
+
+#cookieInfo {
+  background-color: #494949;
+  padding: 5%;
+}
+
+h4 {
+  text-align: left;
 }
 /*# sourceMappingURL=selection.css.map */

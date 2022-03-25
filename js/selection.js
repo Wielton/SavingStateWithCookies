@@ -33,8 +33,13 @@ let cookieArray = [userSelection1, userSelection2, userSelection3];
 for (let n = 0; n < cookieArray.length; n++) {
     if (cookieArray[n] = userSelection1) {
         document.getElementById('choiceName').innerText='Cappuccino';
+        document.body.style.backgroundImage="url('https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-cappuccino.png')";
     } else if (cookieArray[n] = userSelection2) {
         document.getElementById('choiceName').innerText='Pastel';
+        document.body.style.backgroundImage="url('https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-pastel-rainbow.png')";
 }else if (cookieArray[n] = userSelection3) {
     document.getElementById('choiceName').innerText='Program';
+    document.body.style.backgroundImage="url('https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-program-catalog.png')";
 }}
+
+// Make the #selectionDiv have the corresponding colours background
